@@ -1,0 +1,23 @@
+.cardmain {
+  display: flex;
+  padding: 90px;
+  display: grid;
+  margin: 50px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.search_bar {
+  padding: 30px;
+  margin: 40px;
+  padding-right: 1050px;
+  border-radius: 10px;
+  display: flex;
+  align: center;
+}
+.Input_attribute {
+  width: 250px;
+  height: 30px;
+}
+.searchglass {
+  width: 30px;
+  padding: 4px;
+}
