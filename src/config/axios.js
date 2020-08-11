@@ -1,6 +1,7 @@
 import Axios from 'axios';
 
 const axios = Axios.create({
-  baseURL: 'http://starlord.hackerearth.com/',
+  baseURL:
+    'https://cors-anywhere.herokuapp.com/http://starlord.hackerearth.com/',
 });
 export default axios;
